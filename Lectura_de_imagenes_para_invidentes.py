@@ -18,11 +18,11 @@ import sys
 import time
 
 #Suscripcion de Computer vision
-subscription_key = "7bb154605f684601971524ae72a1fc4d"
-endpoint = "https://lecturainvidentes.cognitiveservices.azure.com/"
+subscription_key = ""
+endpoint = ""
 
 #Suscripcion de Speech
-speech_config = SpeechConfig(subscription="f64be28e48374efaa794f1f16bd7bfb7", region="westeurope")
+speech_config = SpeechConfig(subscription="", region="")
 
 #Autenticacion del cliente
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
