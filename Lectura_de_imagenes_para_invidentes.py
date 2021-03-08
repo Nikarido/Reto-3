@@ -22,7 +22,7 @@ subscription_key = ""
 endpoint = ""
 
 #Suscripcion de Speech
-speech_config = SpeechConfig(subscription="", region="")
+speech_config = SpeechConfig(subscription="", region="" )
 
 #Autenticacion del cliente
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
